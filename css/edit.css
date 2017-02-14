@@ -139,8 +139,8 @@ footer p {
 	  color: #fff;
 }
 
-@media screen and (min-width:768px) {
-    .brand {
+@media screen and (min-width: 768px) {
+    .brand2 {
         display: inherit;
         margin: 0;
         padding: 30px 0 10px;
@@ -217,3 +217,52 @@ footer p {
         clear: both;
     }
 }
+.typed-cursor{
+    opacity: 1;
+    font-size: 30px;
+    font-weight: 500;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    -ms-animation: blink 0.7s infinite;
+    -o-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-ms-keyframes blink {
+    0% {
+      opacity: 1; }
+
+    50% {
+      opacity: 0; }
+
+    100% {
+      opacity: 1;
+    }
+  }
+@-o-keyframes blink {
+    0% {
+      opacity: 1;
+    }
+
+    50% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+      }
+  }
