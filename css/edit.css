@@ -70,7 +70,9 @@ hr {
     max-width: 250px;
     border-color: #999999;
 }
-
+.pnt {
+  cursor: pointer;
+}
 .box {
     margin-bottom: 20px;
     padding: 30px 15px;
@@ -88,14 +90,29 @@ hr {
 .img-border {
     float: none;
     margin: 0 auto 0;
-    border: #999999 solid 1px;
+    border: #999999 solid 0px;
 }
-
+.img-radius {
+  border-radius: 50px;
+}
 .img-left {
     float: none;
     margin: 0 auto 0;
 }
-
+.img-contact {
+    max-width: 70%;
+    height: auto;
+}
+.ico-size {
+  max-width: 100%;
+  height: auto;
+}
+.strong-red {
+  color: RED;
+}
+.text-in {
+  text-intent: 10px;
+}
 footer {
     background: #fff;
     background: rgba(255,255,255,0.9);
@@ -104,6 +121,22 @@ footer {
 footer p {
     margin: 0;
     padding: 50px 0;
+}
+
+.btn-facebook {
+	  background: #3B5998;
+	  border-radius: 0;
+	  color: #fff;
+	  border-width: 1px;
+	  border-style: solid;
+	  border-color: #263961;
+}
+.btn-facebook:link, .btn-facebook:visited {
+	  color: #fff;
+}
+.btn-facebook:active, .btn-facebook:hover {
+	  background: #263961;
+	  color: #fff;
 }
 
 @media screen and (min-width:768px) {
