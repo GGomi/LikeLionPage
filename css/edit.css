@@ -222,6 +222,10 @@ a:hover {
 .footer-a {
     font-size: 9px;
 }
+.image-size {
+  width: 20%;
+  height: auto;
+}
 @media screen and (min-width:1200px) {
     .box:after {
         content: '';
